@@ -1,5 +1,5 @@
-language: C
+language: c
 intsall: make dep
 script: make all && make test
-compiler: gcc
+compiler: - gcc
 sudo: required
