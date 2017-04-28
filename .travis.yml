@@ -1,1 +1,5 @@
 language: C
+intsall: make dep
+script: make all && make test
+compiler: gcc
+sudo: required
